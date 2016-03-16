@@ -1,4 +1,5 @@
 // COMMENTED OUT FOR POPUP
+// uncomment when removing
 // $(window).load(function(){
 // 	     $('.load').hide();
 // });
