@@ -1,0 +1,43 @@
+
+.load {
+    position: absolute;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    width: 100vw;
+    height: 100vw;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.load .inner {
+    width: 800px;
+    height: 480px;
+    z-index: 6;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    transform: translateY(calc(50vh - 250px));
+}
+
+.load .inner img {
+    width: 800px;
+    height: 480px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.load .inner a {
+    top: 417px; left: 38px; width: 168px; height: 40px;
+    position: absolute;
+}
+
+.load .close-popup {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    height: 50px;
+    width: 50px;
+}
