@@ -1,8 +1,10 @@
-$(window).load(function(){
-	     $('.load').hide();
-});
+// COMMENTED OUT FOR POPUP
+// $(window).load(function(){
+// 	     $('.load').hide();
+// });
 
 $(document).ready(function() {
+
 
 	var herotext = $('.hero-text'),
 	top = $('.top'),
@@ -201,7 +203,7 @@ $(document).ready(function() {
 	 document.getElementById('full').addEventListener('loadedmetadata', function() {
 	     this.currentTime = 155;
 	 });
-	 
+
 	 setInterval(function(){
 	     var full = document.getElementById('full');
 	     if(full.currentTime > 170){
@@ -250,7 +252,7 @@ $(document).ready(function() {
 			})
 		}
 
-		var contactTop = $('.contact').offset().top / 1.4; 
+		var contactTop = $('.contact').offset().top / 1.4;
 
 		if(windowTop >= contactTop) {
 			$('.contact h1').fadeIn('slow',function(){
